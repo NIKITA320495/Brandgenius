@@ -1,4 +1,85 @@
-myenv
-.adk
-my_agent/.env
+# Environment Variables
 .env
+.env.*
+*.env
+**/.env
+*.key
+*.secret
+
+# Virtual Environments
+myenv/
+venv/
+env/
+ENV/
+.venv/
+*.virtualenv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+*.cover
+
+# Google ADK
+.adk/
+*.adk
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# API Keys and Secrets
+*api_key*
+*secret*
+credentials.json
+token.json
+service-account*.json
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
